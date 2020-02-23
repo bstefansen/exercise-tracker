@@ -1,0 +1,44 @@
+body {
+  background-color: #979A9A;
+  color: black;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  font-family: "Oswald", sans-serif;
+}
+
+#gridStyle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10%;
+  width: 100%;
+  margin: auto;
+  max-width: 700px;
+}
+
+.gridBox {
+  background: linear-gradient(#2ECC71 50%, #424949);
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 2px 2px 2px black;
+}
+
+input {
+  display: block;
+  margin-top: 0.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #D7DBDD;
+}
